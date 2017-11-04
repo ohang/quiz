@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/backbt1"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/backstart1"
+        android:layout_width="40dp"
+        android:layout_margin="4dp"
+        android:background="@mipmap/icon_back"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+    <TextView
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:id="@+id/textView2"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <Button
+        android:id="@+id/updatequestion"
+        android:layout_width="40dp"
+        android:background="@mipmap/up1"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_alignBottom="@+id/backstart" />
+
+
+    <RelativeLayout
+        android:id="@+id/learn1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="47dp"
+       >
+
+
+
+        <RelativeLayout
+
+            android:background="#750d0c0c"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="57dp"
+            android:id="@+id/relativeLayout2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/eng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="english"
+                android:textColor="#ffffff"
+                android:textSize="60sp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true" />
+
+        </RelativeLayout>
+
+<RelativeLayout
+    android:background="#750d0c0c"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:layout_above="@+id/button1"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="17dp">
+
+
+    <TextView
+        android:id="@+id/rus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+
+        android:text="russian"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+
+
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:layout_alignParentTop="true" />
+
+
+
+</RelativeLayout>
+        <ImageButton
+            android:layout_margin="3dp"
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:alpha="0.5"
+            android:background="@drawable/previous"
+            android:elevation="5dp" />
+
+        <ImageButton
+            android:layout_margin="3dp"
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:alpha="0.5"
+            android:background="@drawable/nextt"
+            android:elevation="5dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

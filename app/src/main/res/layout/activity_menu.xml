@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/imengg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ImEng"
+        android:textSize="50sp"
+        android:textColor="@color/basic"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:id="@+id/but1"
+        android:text="изучать"
+        android:textSize="25sp"
+        android:textColor="@color/textcolor"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/basic"
+        android:layout_below="@+id/imengg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp" />
+
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="250dp"
+        android:text="старт"
+        android:textSize="25sp"
+        android:textColor="@color/textcolor"
+        android:layout_height="wrap_content"
+        android:background="@color/basic"
+        android:layout_below="@+id/imengg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <Button
+
+        android:id="@+id/but3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imengg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="276dp"
+        android:background="@color/basic"
+        android:text="записать"
+        android:textColor="@color/textcolor"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
